@@ -15,6 +15,6 @@ After that runs out, it will abruptly stop conducting, and this impedance step i
 good for this since it advertises <1ns fall time and was actually designed with timing accuracy in mind, unlike devices made for switching power supplies. It also has a gate driver built in and comes in a small
 (read low inductance) package. Unfortunately that makes it kind of painful to assemble by hand.
 
-# Stub Pulse Generator
+### Stub Pulse Generator
 
 The SRD circuit makes kind of a pulse with a fast rising edge and a slow RC-like falling edge. To speed up the falling edge, this board uses a ~16mm shorted 50 ohm stub. When the step forms, it goes down both the stub and towards the output, but the stub path has a reflection coefficient of gamma = -1, so the reflection will be negative. This negative reflection sums to hopefully close to zero, so the output will have a fast fall time too. This should all add together to roughly a 200-300ps pulse.
