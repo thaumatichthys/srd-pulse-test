@@ -8837,9 +8837,9 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text_box "STEP RECOVERY DIODE PULSE GENERATOR TEST BOARD\n\nMX 2026"
-		(start 153.87439 62.75)
-		(end 165.62561 77.75)
+	(gr_text_box "Step Recovery Diode Pulse Generator Test Board\n\nDesign target: 250ps pulses at 5V, 1 MHz PRF\n\nPCB: 4L 7628 1.6mm\n\nMX 2026"
+		(start 154.539586 60.05)
+		(end 177.560414 77.05)
 		(margins 1.0025 1.0025 1.0025 1.0025)
 		(angle 270)
 		(layer "B.SilkS")
